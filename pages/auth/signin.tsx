@@ -1,8 +1,14 @@
 import { getProviders, signIn } from "next-auth/react"
+import Head from "next/head"
 
 export default function SignIn({ providers }: any) {
   return (
     <div className="flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50">
+      <Head>
+        <title>Simple Application - Signin</title>
+        <meta name="description" content="Application Signin" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="mx-auto max-w-md ">
         <div className="flex justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-24 w-24 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
