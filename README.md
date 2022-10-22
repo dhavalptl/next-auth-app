@@ -2,10 +2,13 @@
 
 Create .env.local file with variables. Make sure you will not commit this .env.local file to github
 
+```bash
 GITHUB_ID
 GITHUB_SECRET
 NEXTAUTH_URL
 NEXTAUTH_SECRET
+```
+
 
 Run the development server:
 

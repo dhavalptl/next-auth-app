@@ -1,4 +1,5 @@
 import "next-auth/jwt"
+import NextAuth, { DefaultSession } from "next-auth"
 
 // Read more at: https://next-auth.js.org/getting-started/typescript#module-augmentation
 
